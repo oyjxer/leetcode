@@ -75,7 +75,7 @@ int main() {
 		t1 = NULL;
 	}
 	ListNode* l2 = new ListNode(val);
-	ListNode* p = l2;
+	p = l2;
 	for(int j = 0; j < len2; j++){
 		cin >> val;
 		ListNode* t2 = new ListNode(val);
